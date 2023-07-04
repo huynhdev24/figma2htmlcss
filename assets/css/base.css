@@ -7,23 +7,17 @@
   --gray: #999999;
   --light-gray: #e5e5e5;
   --background: #f2f2f2;
-  --green-gradient: linear-gradient(
-      0deg,
+  --green-gradient: linear-gradient(0deg,
       rgba(255, 255, 255, 0.6),
-      rgba(255, 255, 255, 0.6)
-    ),
+      rgba(255, 255, 255, 0.6)),
     #2ada66;
-  --pupure-gradient: linear-gradient(
-      0deg,
+  --pupure-gradient: linear-gradient(0deg,
       rgba(255, 255, 255, 0.6),
-      rgba(255, 255, 255, 0.6)
-    ),
+      rgba(255, 255, 255, 0.6)),
     #021a84;
-  --red-gradient: linear-gradient(
-      0deg,
+  --red-gradient: linear-gradient(0deg,
       rgba(255, 255, 255, 0.6),
-      rgba(255, 255, 255, 0.6)
-    ),
+      rgba(255, 255, 255, 0.6)),
     #e5532a;
   --red-text: #e5532a;
 }
@@ -52,6 +46,7 @@ html {
   padding: 8px 16px;
   color: inherit;
 }
+
 .button-border {
   border: 1px solid var(--primary);
   border-radius: 8px;
@@ -66,10 +61,12 @@ html {
   -o-transition: linear 0.2s;
   overflow: hidden;
 }
+
 .button-border:hover {
   background-color: var(--primary);
   color: white;
 }
+
 .button-solid {
   background-color: var(--primary);
   color: var(--light-gray);
@@ -84,6 +81,7 @@ html {
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
 }
+
 .border {
   width: 17px;
   height: 0px;
@@ -96,6 +94,7 @@ html {
   right: 0;
   width: 100%;
 }
+
 .button-solid::before {
   content: "";
   position: absolute;
@@ -113,13 +112,16 @@ html {
   -ms-transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
   -o-transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
+
 .container {
   padding: 40px 0;
 }
+
 .row {
   display: flex;
   flex-direction: row;
 }
+
 .column {
   display: flex;
   flex-direction: column;
